@@ -1,0 +1,95 @@
+#AllFont{font-family:"Century Gothic",Arial,sans-serif;}
+.menufix{position: fixed;left:-1px; top: -1px; opacity: 0.7;}
+.hidden{
+visibility: hidden;
+opacity: 0;}
+.Opacity{
+animation-name: opacity;
+animation-duration: 2s;
+}
+body{background-color:#6A5ACD;}
+@font-face{
+font-family:"Century Gothic";
+src: url('CenturyGothic.eot?#iefix');
+src: url('GOTHIC.TTF');
+}
+<!--#Place1{top:-5px; left: 416px;text-align: center;position: fixed; position: block; text-align: center;
+}-->
+#Place1 {    
+    width: 50%;
+    height: 20%;
+
+    position: fixed;
+    left: 25%;
+    right: 25%;
+
+    
+}
+#AllFont{font-size: 30px;}
+.opacity2:hover{
+opacity:0.7;}
+.invisible{
+visibility:hidden;
+opaity: 0;}
+.centered{
+text-align: center;}
+#greatcity{
+background-image: url(Great-City.jpg);repeat-x; margin-left:-10px; margin-right: -10px; heigth: 1000px;}
+.middle{vertical-align: middle;}
+#bord-spacing12{border-spacing: 50px 50px;}
+a{
+text-decoration: none;
+color: white;
+}
+#bglaptop{
+background-image: url(laptop.jpg); no-repeat;margin-left: -10px;margin-right:-10px; repeat-x;}
+.Opacity{
+animation-name: opacity;
+animation-duration: 2s;
+}
+@keyframes opacity
+{
+from{opacity:0;}
+to{opacity:1;}
+}
+.centert{
+border-spacing: 20px 20px;}
+.rotate{
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+.rotate:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  -o-transform: rotate(10deg);
+  -ms-transform: rotate(10deg);
+  transform: rotate(10deg);
+  z-index:9;
+} 
+.z-index{
+z-index:10;}
+.inline{
+display: block;}
+ui{
+list-style-type:none;}
+table td:before {
+ content: attr(data-label);
+}
+.textfix {    
+    width: 50%;
+    height: 20%;
+
+    position: fixed;
+    left: 25%;
+    right: 25%;
+
+}
