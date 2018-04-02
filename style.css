@@ -9,7 +9,7 @@ text-align: center; display: block;}
 #Place1{    
     width: 50%;
     height: 20%;
-
+    display: inline;
     position: fixed;
     left: 25%;
     right: 25%;
@@ -50,9 +50,7 @@ border-spacing: 20px 20px;}
 margin-left: -10px;}
 form{
 border: 10px;}
-progress{
-color: white;
-background-color: white;}
+
 a{
 text-decoration: none;
 color: white;
@@ -78,3 +76,4 @@ color: white;
   transform: rotate(10deg);
   z-index:9;
 } 
+.fixedm{ white=space: nowrap;}
