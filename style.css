@@ -9,7 +9,7 @@ text-align: center; display: block;}
 #Place1{    
     width: 50%;
     height: 20%;
-    display: inline;
+  
     position: fixed;
     left: 25%;
     right: 25%;
@@ -76,4 +76,3 @@ color: white;
   transform: rotate(10deg);
   z-index:9;
 } 
-.fixedm{ white=space: nowrap;}
